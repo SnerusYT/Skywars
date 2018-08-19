@@ -1,0 +1,20 @@
+main: Fludixx\Skywars\Skywars
+api: 3.0.0
+name: Skywars
+author: Fludixx
+depend: ['Sagiri-API']
+description: Bedwars Plugin for Pocketmine MP
+version: 1
+commands:
+  sw:
+    description: "Skywars Command"
+  swsign:
+    description: "Skywars Sign Command"
+  stats:
+      description: "Skywars Stats"
+  swupdate:
+      description: "Start SignUpdater"
+permissions:
+  sw.start:
+    default: op
+    description: "Sets the Bedwars timer to 10 Seconds"
